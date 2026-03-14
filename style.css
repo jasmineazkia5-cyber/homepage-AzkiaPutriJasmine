@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid#F4A166;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .brand a {
+    color: #F4A166;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+nav .menu a {
+    font-size: 18px;
+    color: black;
+}
+
+nav .menu {
+    margin-right: 100px;
+    display: flex;
+    gap: 25px;
+}
+
+#home {
+    background-image: url(./assets/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home h1 {
+    font-size: 70px;
+    width: 20%;
+    color: white;
+    padding: 20px;
+}
+
+#home button {
+    border: none;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    margin-left: 20px;
+}
+
+#home a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#menu {
+    background-color: white;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 50px;
+}
+
+.menu-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.card {
+    background-color: #FEDBAF;
+    border-radius: 15px;
+    padding: 10%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.card h3 {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.card p {
+    background-color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid#ff6a00;
+}
+
+footer {
+    background-color: grey;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
